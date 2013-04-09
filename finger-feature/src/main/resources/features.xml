@@ -1,0 +1,10 @@
+<features name="finger-repo">
+    <feature name="finger-service">
+        <bundle>mvn:fuse-sample/plan-iface/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:fuse-sample/finger/1.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="plan-service">
+        <bundle>mvn:fuse-sample/plan-iface/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:fuse-sample/plan-impl/1.0-SNAPSHOT</bundle>
+    </feature>
+</features>

@@ -1,0 +1,11 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+    <bean id="planService" class="planimpl.PlanImpl"/>
+
+    <service ref="planService" interface="plan.Plan">
+        <service-properties>
+            <entry key="service.exported.interfaces" value="plan.Plan"/>
+        </service-properties>
+    </service>
+
+</blueprint>
