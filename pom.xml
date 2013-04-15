@@ -12,8 +12,8 @@
 	
 	<distributionManagement>
         <snapshotRepository>
-            <id>vc2c09dal2317</id>
-            <url>http://vc2c09dal2317:8181/maven/upload</url>
+            <id>repo-id</id>
+            <url>http://repohost:8181/maven/upload</url>
         </snapshotRepository>
 
     </distributionManagement>
