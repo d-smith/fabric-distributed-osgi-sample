@@ -30,7 +30,7 @@ the plan-service container needs to dosgi profile installed.
 
 Once installed the REST service can be invoked on the finger-service container:
 
-    PUT http://ahost:9666/cxf/finger-rs/finger/plan/a045103 HTTP/1.1
+    PUT http://ahost:9666/cxf/finger-rs/finger/plan/some-user HTTP/1.1
     Accept-Encoding: gzip,deflate
     Content-Type: application/xml
     User-Agent: Jakarta Commons-HttpClient/3.1
@@ -39,7 +39,7 @@ Once installed the REST service can be invoked on the finger-service container:
 
     Trying out some services.
 
-    GET http://ahost:9666/cxf/finger-rs/finger/plan/a045103 HTTP/1.1
+    GET http://ahost:9666/cxf/finger-rs/finger/plan/some-user HTTP/1.1
     Accept-Encoding: gzip,deflate
     User-Agent: Jakarta Commons-HttpClient/3.1
     Host: ahost:9666
